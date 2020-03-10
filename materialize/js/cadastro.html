@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width, initial-scale">
+  <title>UNIVERSO CINEMATOGRÁFICO</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.ico">
+  <link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="Edvaldo Cavalcanti">
+  <!--materialize css-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+  <div class="navbar-fixed">
+  <nav class="black z-depth-0">
+  <div class="nav-wrapper container center">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+        <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+        <li><a href="categorias.html" class="dropdown-trigger" data-target="dropdown"><i class="material-icons right">movie</i> Categorias</a></li>
+        <li><a href="#"><i class="material-icons right">edit</i>Aulas</a></li>
+        <li><a href="#"><i class="material-icons right">language</i>Assuntos Universais</a></li>
+        <li><a href="aura.html" class="dropdown-trigger" data-target="dropdown-projeto"><i class="material-icons right">book</i>Projetos</a></li>
+        <li><a href="cadastro.html" class="dropdown-trigger" data-target="dropdown-cadastro"><i class="material-icons right">event_note</i>Cadastrar</a></li>
+       <li><a href="entrar.html" class="dropdown-trigger"><i class="material-icons left">mood</i>Entrar</a></li>
+    </ul>
+    </div>
+    </div>
+  </nav>
+</div>
+
+<head>
+  <style>
+    body{
+      background-image: url(img/uc.jpg);
+    }
+  </style>
+</head>
+
+  <!-- dropdown projeto -->
+  <ul id="dropdown-projeto" class="dropdown-content">
+    <li><a href="aura.html">Aura</a></li>
+  </ul>
+
+
+  <!-- menu mobile-->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="categorias.html"><i class="material-icons right">movie</i>Filmes</a></li>
+    <li><a href="#"><i class="material-icons right">edit</i>Aulas</a></li>
+    <li><a href="#"><i class="material-icons right">keyboard</i>Assuntos universais</a></li>
+    <li><a href="aura.html"><i class="material-icons right">book</i>Projetos</a></li>
+    <li><a href="cadastro.html"><i class="material-icons right">keyboard</i>Cadastrar</a></li>
+    <li><a href="entrar.html"><i class="material-icons right">mood</i>Entrar</a></li>
+    <li><a href="index.html"><i class="material-icons right">home</i>Home</a></li>
+  </ul>
+
+
+<!-- formulario -->
+<div class="row">
+  <div class="input-field col s13 m6 offset-m3">
+    <div class="card">
+
+    <div class="card-action black white-text">
+  <div class="card-content">
+        <div class="form-field">
+
+ <div class="row">
+  <div class="input-field col s13 m8 offset-m1">
+    <i class="material-icons prefix">account_circle</i>
+    <input id="nome" type="text" class="validate" placeholder="Digite seu nome" style="color: white" required>
+    <label for="first_name">Nome</label>
+  </div>
+</div>
+
+<div class="row">
+  <div class="input-field col s13 m8 offset-m1">
+    <i class="material-icons prefix">keyboard_circle</i>
+    <input id="password" type="password" class="validate" placeholder="Senha" style="color: white" required>
+    <label for="password">Senha</label>
+  </div>
+</div>
+
+<div class="row">
+  <div class="input-field col s13 m8 offset-m1">
+    <i class="material-icons prefix">credit_card</i>
+    <input id="cpf" type="number" class="validate" placeholder="123-456-789-10" style="color: white" required>
+    <label for="cpf">CPF</label>
+  </div>
+</div>
+
+<div class="row">
+  <div class="input-field col s13 m8 offset-m1">
+    <i class="material-icons prefix">email</i>
+    <input id="email" type="email" class="validate" placeholder="fulano@mail.com" style="color: white" required>
+    <label for="email">Email</label>
+  </div>
+</div>
+
+  <div class="w3-clear nextprev center" display="block">
+    <a class="w3-left w3-btn light brown waves-effect btn left-float" id="voltar" href="index.html" target="_self">voltar</a>
+    <a class="w3-left w3-btn light brown waves-effect btn right-float" id="voltar" href="index.html" target="_self">Cadastrar</a>  
+  </div>
+  <p>
+      <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span>Free</span>
+      </label>
+    </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</form>
+ </main>
+
+
+<!-- rodapé -->
+    <footer class="page-footer black">
+
+      <div class="container center">
+          <div class="row">
+          <div class="col s12 l6">
+              <h6 class="header black" style="color: white">SOBRE MIM</h6>
+              <img src="img/ed.jpg">
+              <p align="justify-right"><font face="arial" size="3">Me chamo Edvaldo Cavalcanti e busco através deste site, oferecer uma nota detalhada de cada filme, explicando através de uma simples tabela criada por mim. Possuo paixão por cinema, e a minha meta sempre será dar uma nota e abordar no que resultou naquela nota específica. Sejam todos bem-vindos, cadastram-se para usufruirem de conteúdos premium, das aulas e dos sorteios. Agredeço de coração e leiam atentamente os nossos termos de uso e os contatos.</p></font>
+            </div>  
+            <div class="col s12 l6 offset-12">
+              <h6 class="header black" style="color: white">ATENÇÃO</h6>
+              <img src="img/foo.jpg">
+              <p align="justify-right"><font face="arial" size="3">Para realizar o cadastro em nosso site, pode-se clicar na aba acima da página ou clicar sob o botão em destaque aqui embaixo. Para entrar em contato sob qualquer natureza, dirija-se a contato ao final da página. Não esqueçam que as notas são de minha autoria, sendo assim, não há nada relacionado com o IMDB.
+              </div>
+              <a class="w3-left w3-btn waves-effect waves-light btn light-blue pulse" href="cadastro.html">Cadastrar 📝</a>
+              </div>
+            </div>
+            <div class="footer-copyright black">
+            <h6 class="header" style="color: white"> @ 2019 Todos os direitos reservados <a href="termos de uso.html" target="_self"><u>Termos de uso</a></u> <a href="contato.html" target="_self"><u>Contato</a></u></h6>
+          </div>
+          </footer>
+            
+
+  <!--materialize.js-->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+ <script src="js/materialize.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $('.dropdown-trigger').dropdown();
+        
+</script>
+<script>
+  $('.slider').slider();
+</script>
+
+ <script>
+  // menu mobile
+  $('.sidenav').sidenav();
+ </script>
+</body>
+</html>
